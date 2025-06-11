@@ -3,7 +3,7 @@ texto de prueba
 
 # Banca Móvil OHO
 
-Este proyecto es una aplicación de banca móvil diseñada para facilitar la gestión de cuentas bancarias y transacciones financieras.
+Este proyecto es una aplicación de banca móvil diseñada para facilitar la gestión de cuentas bancarias y transacciones financieras..
 
 ## Características
 - Consulta de saldo.
