@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Banca Móvil</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f8ff; /* Light blue background */
+        color: #003366; /* Dark blue text */
+      }
+      header {
+        background-color: #003366; /* Dark blue */
+        color: #ffffff; /* White text */
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .logo img {
+        height: 40px;
+      }
+      nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 15px;
+      }
+      nav a {
+        text-decoration: none;
+        color: #ffffff; /* White text */
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <img src="images/banco.png" alt="Banca Móvil Logo" />
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#features">Servicios</a></li>
+          <li><a href="#about">Nosotros</a></li>
+          <li><a href="#contact">Contacto</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <img src="images/banco.png" alt="Logo Banca Móvil" style="height: 80px; margin-bottom: 20px;" />
+        <h1>Bienvenido a Banca Móvil, creada por Omar Herrera Olguin</h1>
+        <p>Gestione sus finanzas de manera fácil y segura.</p>
+        <button onclick="location.href='/login'">Iniciar Sesión</button>
+      </section>
+      <style>
+        .hero {
+          text-align: center;
+          padding: 50px;
+          background-color: #0073e6; /* Medium blue */
+          color: #ffffff; /* White text */
+        }
+        .hero button {
+          background-color: #005bb5; /* Darker blue */
+          color: #ffffff;
+          border: none;
+          padding: 10px 20px;
+          font-size: 16px;
+          cursor: pointer;
+          border-radius: 5px;
+        }
+      </style>
+<style>
+  .features {
+    display: flex;
+    justify-content: space-around; /* Space between items */
+    align-items: center; /* Align items vertically */
+    padding: 20px;
+    background-color: #e6f2ff; /* Light blue */
+  }
+  .feature-item {
+    text-align: center;
+    padding: 10px;
+    background-color: #ffffff; /* White background for items */
+    border: 1px solid #d1e7ff; /* Light border */
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    width: 250px; /* Fixed width for items */
+  }
+  .feature-item img {
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  .feature-item h3 {
+    color: #003366; /* Dark blue */
+  }
+</style>
+      <section id="features" class="features">
+        <div class="feature-item">
+          <img src="images/transferencia-bancaria.png" alt="Transferencias" />
+          <h3>Transferencias</h3>
+          <p>Envía dinero rápidamente.</p>
+        </div>
+        <div class="feature-item">
+          <img src="images/metodo-de-pago.png" alt="Pagos" />
+          <h3>Pagos</h3>
+          <p>Paga tus facturas fácilmente.</p>
+        </div>
+        <div class="feature-item">
+          <img src="images/hucha.png" alt="Ahorros" />
+          <h3>Ahorros</h3>
+          <p>Administra tus ahorros.</p>
+        </div>
+      </section>
+      <section id="about">
+        <h2>
+          <img src="images/banco.png" alt="Logo Nosotros" style="height: 30px; vertical-align: middle;" />
+          Nosotros
+        </h2>
+        <p>Somos líderes en soluciones financieras digitales.</p>
+      </section>
+      <section id="contact">
+        <h2>Contacto</h2>
+        <p>Escríbenos a soporte@bancamovil.com</p>
+      </section>
+      <footer>
+        <p>&copy; 2023 Banca Móvil. Todos los derechos reservados.</p>
+      </footer>
+    </main>
+  </body>
+</html>
