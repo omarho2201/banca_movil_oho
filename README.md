@@ -12,5 +12,5 @@ Este proyecto es una aplicación de banca móvil diseñada para facilitar la ges
 
 ## Instalación
 1. Clona el repositorio:
-   ```bash
+   ```bas
    git clone https://github.com/omarho2201/banca_movil_oho.git
